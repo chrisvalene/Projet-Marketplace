@@ -1,0 +1,15 @@
+.blog{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(207, 17, 17);
+    animation: slide 1s infinite;
+}
+
+@keyframes slide{
+    to{
+        transform: translate(0);
+    }
+      from{
+        transform: translate(-300px);
+    }
+}

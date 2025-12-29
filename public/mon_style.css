@@ -1,0 +1,70 @@
+.contents{
+
+    background-color: rgb(61, 61, 227);
+    width: 100%;
+    overflow: hidden;
+}
+.dae{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bop{
+    width: 450vh;
+    height: 80vh;
+    background-color: black;
+    position: relative;
+    top: 60vh;
+    left: 1vh;
+    transform: rotate(-2deg);
+}
+form input,form select{
+    width: 100%;
+    margin-top: 4vh;
+    outline: none;
+    background: transparent;
+     border: none;
+    border-bottom: 2px solid rgb(186, 214, 214);
+    padding-left: 3vh;
+   
+}
+form button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(78, 78, 233);
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+form {
+   position: relative;
+   top: 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 2vh;
+   padding-bottom: 5vh;
+}
+form .pol{
+     padding: 5vh 10vh;
+}
+.bad{
+    position: relative;
+}
+.bad i{
+    position: absolute;
+    bottom: 1vh;
+    left: 0;
+    color: rgb(126, 142, 142);
+}
+form h3{
+    font-size: 20px;
+    padding-top: 2vh;
+    text-align: center;
+    border-bottom: 2px solid rgb(131, 152, 152);
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+}
